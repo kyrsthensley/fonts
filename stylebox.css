@@ -1,0 +1,187 @@
+@font-face {
+     font-family: Old_Standard_TT;
+     src: url(Old_Standard_TT/OldStandardTT-Bold.ttf);
+}
+
+@font-face {
+     font-family: Inter;
+     src: url(Inter/Inter-VariableFont_slnt,wght.ttf);
+}
+
+@font-face {
+     font-family: Mulish;
+     src: url(Mulish/Mulish-Italic-VariableFont_wght.ttf);
+}
+
+body {
+     display: flex;
+     justify-content: center;
+     background: #E0FBFC;
+     font-family: Inter;
+
+}
+
+h1 {
+     font-family: Old_Standard_TT;
+}
+
+img {
+     padding-bottom: 30px;
+     width: 470px;
+}
+
+#slider {
+     overflow: hidden;
+}
+
+#slider figure {
+     position: relative;
+     width: 500%;
+     margin: 0;
+     left: 0;
+     animation: 20s slider infinite;
+
+}
+
+#slider figure img {
+     width: 20%;
+     float: left;
+}
+
+@keyframes slider {
+     0% {
+          left: 0;
+     }
+     20% {
+          left: 0;
+     }
+     25% {
+          left: -100%;
+     }
+     45% {
+          left: -100%;
+     }
+     50% {
+          left: -200%;
+     }
+     70% {
+          left: -200%;
+     }
+     75% {
+          left: -300%;
+     }
+     95% {
+          left: -300%;
+     }
+     100% {
+          left: -400%;
+     }
+}
+
+#hero-image {
+     display: flex;
+     justify-content: center;
+}
+
+#hero-image img {
+     height: 250px;
+     width: auto;
+}
+
+#container {
+     position: relative;
+     top: 100px;
+     width: 500px;
+}
+
+#content-box {
+     background: #98C1D9;
+     padding: 15px;
+     margin-bottom: 15px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     background: repeating-linear-gradient(
+       to right,
+       #ECE6E9,
+       #ECE6E9 10px,
+       #F6F3F5 10px,
+       #F6F3F5 20px
+       );
+
+}
+
+#title {
+     font-family: Mulish;
+     padding:0px 0px 30px 195px;
+
+}
+
+
+
+ul {
+     position: relative;
+     margin-bottom: 40px;
+     list-style-type: none;
+     padding: 0px;
+     display: flex;
+     justify-content: center;
+     font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase;
+}
+
+li {
+     padding-right: 10px;
+}
+
+a {
+     text-decoration: none;
+     background: #EE6C4D;
+     color: white;
+     padding: 15px;
+}
+
+a:hover {
+     background: white;
+     color: #293241;
+
+}
+
+a:link {
+
+     color: #293241;
+}
+
+a:visited {
+
+
+}
+
+a:active {
+
+     color: #293241;
+}
+
+
+#box1 {
+     font-family: Old_Standard_TT;
+     text-transform: uppercase;
+}
+
+#box2 {
+     font-family: Old_Standard_TT;
+     text-transform: uppercase;
+}
+
+#box3 {
+     font-family: Old_Standard_TT;
+     text-transform: uppercase;
+}
+
+#box4 {
+     font-family: Old_Standard_TT;
+     text-transform: uppercase;
+}
+
+#box5 {
+     font-family: Old_Standard_TT;
+     text-transform: uppercase;
+}
